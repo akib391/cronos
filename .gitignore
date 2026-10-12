@@ -1,0 +1,36 @@
+# Composer / PHP dependencies
+/vendor/
+composer.phar
+
+# Local environment/config files
+.env
+.env.*
+!.env.example
+
+# Logs and runtime files
+*.log
+php_errors.log
+error_log
+/tmp/
+
+# Cache and compiled files
+.cache/
+*.cache
+.phpunit.result.cache
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Uploads / generated assets (uncomment if you want to track them)
+# /uploads/
+# /images/uploads/
+# /storage/
